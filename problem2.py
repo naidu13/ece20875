@@ -20,7 +20,7 @@ print('Question 1: What command should I use to download my assignment from GitH
 #Note that, unlike MATLAB, Python indexing begins at 0 
 
 #Fill in the line below:
-cmd1= commands[0]#Replace 0 with the index of the right command from the list 'commands'
+cmd1= commands[3]#Replace 0 with the index of the right command from the list 'commands'
 print(cmd + cmd1 + 'https://github.com/johndoe/ConfusedStudent.git')
 
 
@@ -37,17 +37,17 @@ print('Question 2: If `git_commands.py` is a new working file that I`ve just cre
 #Fill in the variable assignments below with appropriate choices from the list from earlier
 #Step 1
 #Set variable 'cmd1' to the list variable that best indicates your answer 
-cmd1= commands[0]
+cmd1= commands[5]
 print(cmd + cmd1 + filename)
 
 #Step 2
 #Set variable 'cmd2' to the list variable that best indicates your answer
-cmd2=commands[0]
+cmd2=commands[4]
 print(cmd + cmd2+ "'First version of file is done. I should pay my consultant.'")
 
 #Step 3
 #Set variable 'cmd3' to the list variable that indicates your answer
-cmd3=commands[0]
+cmd3=commands[6]
 print(cmd + cmd3)
 
 ####################
@@ -60,17 +60,17 @@ print('Question 3: If I modified `git_commands.py` on my local machine, then wha
 #Fill in the variable assignments below with appropriate choices from the list from earlier:
 #Step 1
 #Set variable 'cmd1' to the list variable that best indicates your answer 
-cmd1=commands[0]
+cmd1=commands[5]
 print(cmd + cmd1 + filename)
 
 #Step 2
 #Set variable 'cmd2' to the list variable that best indicates your answer
-cmd2=commands[0]
+cmd2=commands[4]
 print(cmd + cmd2+ "'Problem fixed and file updated. My consultant is cool and deserves $20.'")
 
 #Step 3
 #Set variable 'cmd3' to the list variable that indicates your answer
-cmd3=commands[0]
+cmd3=commands[6]
 print(cmd + cmd3)
 
 ####################
@@ -84,22 +84,22 @@ print('Question 4: If `git_commands.py` has been removed from my local machine, 
 #Fill in the variable assignments below with appropriate choices from the list from earlier:
 #Step 1
 #Set variable 'cmd1' to the list of variable that indicates your answer
-cmd1=commands[0]
+cmd1=commands[2]
 print(cmd + cmd1)
 
 #Step 2.
 #Set variable 'cmd2' to the list variable that best indicate your answer 
-cmd2=commands[0]
+cmd2=commands[4]
 print(cmd + cmd2+ "'Removed File from Repository.'")
 
 #Step 3
 #Set variable 'cmd3' to the list variable that indicate your answer
-cmd3=commands[0]
+cmd3=commands[6]
 print(cmd + cmd3)
 
 ####################
 
 print('Question 5: If the remote repository on Github has new changes that are not on my local machine, what command should I use to update my local machine?')
 #Fill in the line below by setting variable 'cmd1' to the list variable that best indicates your answer 
-cmd1=commands[0]
+cmd1=commands[1]
 print(cmd + cmd1)
